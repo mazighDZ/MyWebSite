@@ -6,8 +6,8 @@ import ssl
 import os
 
 
-my_password = os.environ.get("my_password")
-my_email = os.environ.get("my_email")
+my_password = os.getenv("MY_PASSWORD")
+my_email = os.getenv("MY_EMAIL")
 
 
 app = Flask(__name__)
