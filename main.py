@@ -5,6 +5,7 @@ import smtplib
 import ssl
 import os
 
+
 my_password = os.environ.get("my_password")
 my_email = os.environ.get("my_email")
 
